@@ -43,6 +43,14 @@ namespace User
     class UserClass
     {
         public string Name { get; set; }
+        UserClass()
+        {
+            Name = "NoName";
+        }
+        UserClass(string n)
+        {
+            Name = n;
+        }
     }
 
 }
